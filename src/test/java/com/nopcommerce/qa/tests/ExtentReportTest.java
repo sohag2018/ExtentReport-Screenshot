@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
-import org.apache.commons.io.FileUtils;
+//import org.apache.commons.io.FileUtils;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -87,8 +87,8 @@ public class ExtentReportTest {
 			test.log(Status.FAIL,"Reason is:"+result.getThrowable());
 			
 			//call the method which take screen shot ->creating path and pass the path for adding screen shot method in test (obj)
-			String screenshotpath=getScreenShot(driver, result.getName());
-			test.addScreenCaptureFromPath(screenshotpath);
+//			String screenshotpath=getScreenShot(driver, result.getName());
+//			test.addScreenCaptureFromPath(screenshotpath);
 			
 		}else if(result.getStatus()==ITestResult.SKIP) {
 			test.log(Status.SKIP, "Name of the Test is:"+result.getName());
@@ -99,19 +99,19 @@ public class ExtentReportTest {
 		driver.quit();
 	}
 	
-	//method to take screenshot: to call incase of test case fails
-	public static String getScreenShot(WebDriver driver, String screenShotName) throws IOException {
-		String dateName=new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-		TakesScreenshot ts=(TakesScreenshot)driver;
-		File source=ts.getScreenshotAs(OutputType.FILE);
-		//taking a variable where it will be stored
-		String destination=System.getProperty("user.dir")+"/Screenshot/"+screenShotName+dateName+".png";
-		//now need to send it to extent report
-		File finalDestinaiton=new File(destination);
-		FileUtils.copyFile(source, finalDestinaiton);
-		
-		return destination ;
-	}
+//	//method to take screenshot: to call incase of test case fails
+//	public static String getScreenShot(WebDriver driver, String screenShotName) throws IOException {
+//		String dateName=new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+//		TakesScreenshot ts=(TakesScreenshot)driver;
+//		File source=ts.getScreenshotAs(OutputType.FILE);
+//		//taking a variable where it will be stored
+//		String destination=System.getProperty("user.dir")+"/Screenshot/"+screenShotName+dateName+".png";
+//		//now need to send it to extent report
+//		File finalDestinaiton=new File(destination);
+//		FileUtils.copyFile(source, finalDestinaiton);
+//		
+//		return destination ;
+//	}
 	
 	
 
