@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="41565" started-at="2020-03-19T05:00:03Z" finished-at="2020-03-19T05:00:45Z">
+  <suite name="Suite" duration-ms="26862" started-at="2020-03-20T21:24:24Z" finished-at="2020-03-20T21:24:51Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="41565" started-at="2020-03-19T05:00:03Z" finished-at="2020-03-19T05:00:45Z">
+    <test name="Test" duration-ms="26862" started-at="2020-03-20T21:24:24Z" finished-at="2020-03-20T21:24:51Z">
       <class name="com.nopcommerce.qa.tests.ExtentReportTest">
-        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.nopcommerce.qa.tests.ExtentReportTest@6b71769e]" name="setExtent" is-config="true" duration-ms="349" started-at="2020-03-19T05:00:03Z" finished-at="2020-03-19T05:00:04Z">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.nopcommerce.qa.tests.ExtentReportTest@6b71769e]" name="setExtent" is-config="true" duration-ms="289" started-at="2020-03-20T21:24:24Z" finished-at="2020-03-20T21:24:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.qa.tests.ExtentReportTest@6b71769e]" name="setUp" is-config="true" duration-ms="7297" started-at="2020-03-19T05:00:04Z" finished-at="2020-03-19T05:00:11Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.qa.tests.ExtentReportTest@6b71769e]" name="setUp" is-config="true" duration-ms="13120" started-at="2020-03-20T21:24:24Z" finished-at="2020-03-20T21:24:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.nopcommerce.qa.tests.ExtentReportTest@6b71769e]" name="loginTest" duration-ms="16" started-at="2020-03-19T05:00:11Z" finished-at="2020-03-19T05:00:11Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.nopcommerce.qa.tests.ExtentReportTest@6b71769e]" name="loginTest" duration-ms="44" started-at="2020-03-20T21:24:37Z" finished-at="2020-03-20T21:24:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="resultProduce(org.testng.ITestResult)[pri:0, instance:com.nopcommerce.qa.tests.ExtentReportTest@6b71769e]" name="resultProduce" is-config="true" duration-ms="960" started-at="2020-03-19T05:00:11Z" finished-at="2020-03-19T05:00:12Z">
+        <test-method status="PASS" signature="resultProduce(org.testng.ITestResult)[pri:0, instance:com.nopcommerce.qa.tests.ExtentReportTest@6b71769e]" name="resultProduce" is-config="true" duration-ms="591" started-at="2020-03-20T21:24:37Z" finished-at="2020-03-20T21:24:38Z">
           <params>
             <param index="0">
               <value>
@@ -30,15 +30,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resultProduce -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.qa.tests.ExtentReportTest@6b71769e]" name="setUp" is-config="true" duration-ms="14874" started-at="2020-03-19T05:00:12Z" finished-at="2020-03-19T05:00:27Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.qa.tests.ExtentReportTest@6b71769e]" name="setUp" is-config="true" duration-ms="5736" started-at="2020-03-20T21:24:38Z" finished-at="2020-03-20T21:24:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="logoTest()[pri:0, instance:com.nopcommerce.qa.tests.ExtentReportTest@6b71769e]" name="logoTest" duration-ms="2800" started-at="2020-03-19T05:00:27Z" finished-at="2020-03-19T05:00:30Z">
+        <test-method status="PASS" signature="logoTest()[pri:0, instance:com.nopcommerce.qa.tests.ExtentReportTest@6b71769e]" name="logoTest" duration-ms="177" started-at="2020-03-20T21:24:44Z" finished-at="2020-03-20T21:24:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoTest -->
-        <test-method status="PASS" signature="resultProduce(org.testng.ITestResult)[pri:0, instance:com.nopcommerce.qa.tests.ExtentReportTest@6b71769e]" name="resultProduce" is-config="true" duration-ms="638" started-at="2020-03-19T05:00:30Z" finished-at="2020-03-19T05:00:30Z">
+        <test-method status="PASS" signature="resultProduce(org.testng.ITestResult)[pri:0, instance:com.nopcommerce.qa.tests.ExtentReportTest@6b71769e]" name="resultProduce" is-config="true" duration-ms="613" started-at="2020-03-20T21:24:44Z" finished-at="2020-03-20T21:24:45Z">
           <params>
             <param index="0">
               <value>
@@ -49,17 +49,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resultProduce -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.qa.tests.ExtentReportTest@6b71769e]" name="setUp" is-config="true" duration-ms="13396" started-at="2020-03-19T05:00:30Z" finished-at="2020-03-19T05:00:44Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.qa.tests.ExtentReportTest@6b71769e]" name="setUp" is-config="true" duration-ms="4926" started-at="2020-03-20T21:24:45Z" finished-at="2020-03-20T21:24:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="titleTest()[pri:0, instance:com.nopcommerce.qa.tests.ExtentReportTest@6b71769e]" name="titleTest" duration-ms="12" started-at="2020-03-19T05:00:44Z" finished-at="2020-03-19T05:00:44Z">
+        <test-method status="FAIL" signature="titleTest()[pri:0, instance:com.nopcommerce.qa.tests.ExtentReportTest@6b71769e]" name="titleTest" duration-ms="11" started-at="2020-03-20T21:24:49Z" finished-at="2020-03-20T21:24:49Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [Store Demo - nopCommerc] but found [Store Demo - nopCommerce]]]>
+              <![CDATA[expected [Store Demo - nopCommer] but found [Store Demo - nopCommerce]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Store Demo - nopCommerc] but found [Store Demo - nopCommerce]
+              <![CDATA[java.lang.AssertionError: expected [Store Demo - nopCommer] but found [Store Demo - nopCommerce]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
@@ -101,7 +101,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleTest -->
-        <test-method status="PASS" signature="resultProduce(org.testng.ITestResult)[pri:0, instance:com.nopcommerce.qa.tests.ExtentReportTest@6b71769e]" name="resultProduce" is-config="true" duration-ms="633" started-at="2020-03-19T05:00:44Z" finished-at="2020-03-19T05:00:44Z">
+        <test-method status="PASS" signature="resultProduce(org.testng.ITestResult)[pri:0, instance:com.nopcommerce.qa.tests.ExtentReportTest@6b71769e]" name="resultProduce" is-config="true" duration-ms="618" started-at="2020-03-20T21:24:49Z" finished-at="2020-03-20T21:24:50Z">
           <params>
             <param index="0">
               <value>
@@ -112,7 +112,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resultProduce -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.nopcommerce.qa.tests.ExtentReportTest@6b71769e]" name="endReport" is-config="true" duration-ms="551" started-at="2020-03-19T05:00:44Z" finished-at="2020-03-19T05:00:45Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.nopcommerce.qa.tests.ExtentReportTest@6b71769e]" name="endReport" is-config="true" duration-ms="699" started-at="2020-03-20T21:24:50Z" finished-at="2020-03-20T21:24:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->

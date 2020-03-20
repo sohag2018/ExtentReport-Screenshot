@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="2.838" tests="3" errors="0" skipped="0" failures="1">
+<testsuite name="TestSuite" time="0.251" tests="3" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
@@ -62,10 +62,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="loginTest" classname="com.nopcommerce.qa.tests.ExtentReportTest" time="0.017"/>
-  <testcase name="logoTest" classname="com.nopcommerce.qa.tests.ExtentReportTest" time="2.801"/>
-  <testcase name="titleTest" classname="com.nopcommerce.qa.tests.ExtentReportTest" time="0.02">
-    <failure message="expected [Store Demo - nopCommerc] but found [Store Demo - nopCommerce]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Store Demo - nopCommerc] but found [Store Demo - nopCommerce]
+  <testcase name="loginTest" classname="com.nopcommerce.qa.tests.ExtentReportTest" time="0.045"/>
+  <testcase name="logoTest" classname="com.nopcommerce.qa.tests.ExtentReportTest" time="0.177"/>
+  <testcase name="titleTest" classname="com.nopcommerce.qa.tests.ExtentReportTest" time="0.029">
+    <failure message="expected [Store Demo - nopCommer] but found [Store Demo - nopCommerce]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Store Demo - nopCommer] but found [Store Demo - nopCommerce]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
@@ -74,15 +74,15 @@
 	at org.testng.Assert.assertEquals(Assert.java:463)
 	at com.nopcommerce.qa.tests.ExtentReportTest.titleTest(ExtentReportTest.java:70)
 </failure>
-    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 26248
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 22669
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Mar 19, 2020 1:00:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 20, 2020 5:24:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1584594042.520][SEVERE]: Timed out receiving message from renderer: 0.100
-[1584594042.695][SEVERE]: Timed out receiving message from renderer: 0.100
-[1584594043.957][SEVERE]: Timed out receiving message from renderer: 0.100
-[1584594044.081][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584739489.203][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584739489.305][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584739489.853][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584739489.954][SEVERE]: Timed out receiving message from renderer: 0.100
 ]]></system-err>
   </testcase>
 </testsuite>
