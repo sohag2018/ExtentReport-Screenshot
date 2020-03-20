@@ -7,7 +7,7 @@ stages{
 stage('Build'){
 
 steps{
-        "Building the project"
+       echo "Building the project"
     }
 
     }
@@ -15,7 +15,7 @@ steps{
 stage('Test'){
 
 steps{
-        "Testing the project"
+       echo "Testing the project"
     }
 
     }
@@ -23,7 +23,7 @@ steps{
 stage('Deploy'){
 
 steps{
-        "Deploying the project"
+      echo  "Deploying the project"
     }
 
     }
