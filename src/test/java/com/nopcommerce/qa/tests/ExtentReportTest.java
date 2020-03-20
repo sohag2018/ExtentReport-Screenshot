@@ -67,7 +67,7 @@ public class ExtentReportTest {
 	public void titleTest() {
 		test=extent.createTest("titleTest");
 		String title=driver.getTitle();
-		Assert.assertEquals(title, "Store Demo - nopCommerc");}
+		Assert.assertEquals(title, "Store Demo - nopCommer");}
 	@Test
 	public void logoTest() {
 		test=extent.createTest("logoTest");
